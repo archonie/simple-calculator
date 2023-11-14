@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
             binding.resultText.text = "Result: ${result}"
         }
         else{
-            binding.resultText.text = "You have entered a wrong value."
+            binding.resultText.text = "You have entered a wrong values."
         }
     }
     fun crossClicked(view: View){
